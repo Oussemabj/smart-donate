@@ -1,0 +1,95 @@
+#az{
+  display: inline-block;
+}
+body{
+   background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+
+}
+
+.container {
+  width:80%;
+  margin:auto;
+  overflow:hidden;
+
+ }
+
+ header {
+  background-color:#1c222e;
+  color:#fff;
+  padding-top:30px;
+  min-height:60px;
+  border-bottom: 3px solid #376893;
+ }
+header a {
+  color:#fff;
+  text-decoration:none;
+  text-transform:uppercase;
+  font-size:16px;
+
+}
+
+#imgset
+{
+  opacity: 0.6;
+}
+
+header ul {
+  margin:0;
+  padding:0;
+}
+
+header li {
+  float:left;
+  display:inline;
+  padding:0 20px 0 20px;
+}
+header #brain {
+  float:left;
+    }
+
+header #brain h1{
+  margin:0;
+    }
+
+
+header nav {
+  float:right;
+  margin-top:10px;
+}
+ 
+header .first-word, header .corrent a {
+  color:#ceeffe;
+}
+
+header a:hover {
+  color:#6a99bd;
+  font-weight:bold;
+
+}
+.nav-bar{
+     width: 350px;
+    display: flex;
+    justify-content: space-between;
+}
+em{
+  color: white;
+}
+h5{
+  color :red;
+}
+.nb{
+  color:red;
+}
+.connecté{
+  color: #B9FF55;
+}
+.backcolor{
+
+background-color:#D2FEFF;
+
+}
+img:hover{
+  transition: all 1s;
+  transform: scale(1.1);
+}
